@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <cloudiq translate="title" module="cloudiq_core">
+            <title>cloud.IQ</title>
+            <sort_order>900</sort_order>
+            <action>adminhtml/cloudiq/edit</action>
+        </cloudiq>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <cloudiq_core translate="title">
+                                        <title>cloud.IQ Section</title>
+                                        <sort_order>60</sort_order>
+                                    </cloudiq_core>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
+

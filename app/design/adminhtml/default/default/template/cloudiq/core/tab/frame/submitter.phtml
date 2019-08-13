@@ -1,0 +1,11 @@
+<form action="<?php echo $this->getDestination(); ?>" method="POST">
+    <input type="hidden" name="id" value="<?php echo $this->getAccountId(); ?>" />
+    <input type="hidden" name="token" value="<?php echo $this->getToken() ?>" />
+    <?php $additional_parameters = $this->getAdditionalParameters(); ?>
+    <?php foreach ($additional_parameters as $name => $value): ?>
+        <input type="hidden" name="<?php echo $name; ?>" value="<?php echo $value; ?>" />
+    <?php endforeach; ?>
+</form>
+<script type="text/javascript">
+    document.forms[0].submit();
+</script>

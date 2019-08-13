@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Cloudiq_Core>
+            <version>1.0.0</version>
+        </Cloudiq_Core>
+    </modules>
+
+    <global>
+        <blocks>
+            <cloudiq_core>
+                <class>Cloudiq_Core_Block</class>
+            </cloudiq_core>
+        </blocks>
+        <models>
+            <cloudiq_core>
+                <class>Cloudiq_Core_Model</class>
+            </cloudiq_core>
+        </models>
+        <helpers>
+            <cloudiq_core>
+                <class>Cloudiq_Core_Helper</class>
+            </cloudiq_core>
+        </helpers>
+    </global>
+
+    <frontend>
+        <routers>
+            <cloudiq>
+                <use>standard</use>
+                <args>
+                    <frontName>cloudiq</frontName>
+                    <module>Cloudiq_Core</module>
+                </args>
+            </cloudiq>
+        </routers>
+    </frontend>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <cloudiq_core before="Mage_Adminhtml">Cloudiq_Core_Adminhtml</cloudiq_core>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <cloudiq_core>
+                    <file>cloudiq/core.xml</file>
+                </cloudiq_core>
+            </updates>
+        </layout>
+    </adminhtml>
+
+    <phpunit>
+        <suite>
+            <modules>
+                <Cloudiq_Core />
+            </modules>
+        </suite>
+    </phpunit>
+
+</config>

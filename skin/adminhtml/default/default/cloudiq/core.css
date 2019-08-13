@@ -1,0 +1,41 @@
+.cloudiq-banner {
+    padding: 5px 27px 5px 47px;
+    background: rgb(255, 249, 233);
+    border-bottom: 1px solid rgb(238, 226, 190);
+    border-top: 1px solid rgb(238, 226, 190);
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0 0 -3px;
+    color: rgb(68, 68, 68);
+    position: relative;
+}
+
+/*
+ * Expand the config form and adjust all elements to expand to the new size.
+ */
+#edit_form .form-list {
+    width: 590px;
+}
+
+#edit_form .form-list td.value {
+    width: auto;
+}
+
+#edit_form td.value .note {
+    width: 90%;
+}
+
+#edit_form td.value select {
+    width: 95%;
+}
+
+/* Text inputs are half-width by default */
+#edit_form td.value input {
+    width: 50%;
+}
+
+/* Expand the Account ID and Token fields to fit the data */
+#edit_form #settings.fieldset td.value input {
+    font-family: monospace;
+    width: 64%;
+}

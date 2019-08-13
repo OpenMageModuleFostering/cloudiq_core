@@ -1,0 +1,15 @@
+<?php
+/**
+ * Form template for the Global Settings tab of the configuration
+ * form for Cloudiq_Core module.
+ *
+ * Based on default/default/template/widget/form.phtml
+ */
+?>
+<div class="entry-edit">
+    <?php if (!$this->hasBeenSetUp()) : ?>
+        <iframe src="<?php echo $this->getSetupUrl() ?>" frameborder="0" width="100%" height="600"></iframe>
+    <?php endif; ?>
+    <?php echo $this->getFormHtml();?>
+</div>
+<?php echo $this->getChildHtml('form_after');?>

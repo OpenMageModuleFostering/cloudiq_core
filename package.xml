@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Cloudiq_Core</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.cloud-iq.com">Commercial License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provides a framework for other cloud.IQ extensions.</summary>
+    <description>This extension provides tools to communicate with the cloud.IQ platform and serves as a framework for other cloud.IQ modules, such as callMe and cartChecker.&#xD;
+&#xD;
+It is usually installed automatically by other extensions as a dependency and should not need to be installed on its own.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>cloud.IQ</name><user>cloud_iq</user><email>sales@cloud-iq.com</email></author></authors>
+    <date>2013-09-04</date>
+    <time>13:01:46</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Cloudiq_Core.xml" hash="cad973564b5dda06d3608f7e51d529e6"/></dir></target><target name="magecommunity"><dir name="Cloudiq"><dir name="Core"><dir name="Block"><dir name="Adminhtml"><dir name="Config"><dir name="Edit"><file name="Form.php" hash="adb6a7430c073ee2930b4d853fb4cfa3"/><dir name="Tab"><file name="Frame.php" hash="f95557ef75baf8aa41468bc7fb68a392"/><file name="Global.php" hash="3c99652197db041d5ef044abbdeeea9e"/></dir><file name="Tabs.php" hash="953109aea9e43c0dd960eb9f2aa041f6"/></dir><file name="Edit.php" hash="55f27f8954981871bd7e748f48f9e8c0"/></dir></dir></dir><dir name="Helper"><file name="Config.php" hash="4f7a9fc9fa6c444db5d0d72f51fa99b6"/><file name="Data.php" hash="528460cf7ec9f942f2f29f6dad1c52f1"/></dir><dir name="Model"><dir name="Api"><file name="Abstract.php" hash="a6df29a5d90cba70242cd36bd0689cd3"/><file name="Core.php" hash="41d56d74e1f0055a7d482c279dddf356"/><file name="Request.php" hash="43bd7500c74d97eac224c23518e3824b"/><file name="Response.php" hash="79e28972107425f31dbf6cc8d7210c86"/></dir></dir><dir name="Test"><dir name="Config"><file name="Base.php" hash="f2e2ca2e59d14048bf46b8c208787793"/></dir><dir name="Model"><dir name="Api"><file name="Response.php" hash="e9d5051331fabfcbe487778ae2c47cc3"/><file name="TestCase.php" hash="2d5114ea542aba75f666b6254390a5d6"/><dir name="data"><dir name="Response"><file name="testWasSuccessfulBadResponseAttribute.txt" hash="7edb6a3d909e8bfb7f04a3450b0fc1c8"/><file name="testWasSuccessfulStatusCodeAndResponseAttribute.txt" hash="14b598d1a6abd984d00cb76fa5351b81"/></dir></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="CloudiqController.php" hash="4cdb6fc9daf31260c6e020496f7ba557"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="8ee43c9b6d84378c552987e7e980a50d"/><file name="config.xml" hash="d53122159940a78b5f8352355c9f0f99"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="cloudiq"><file name="core.xml" hash="f5fe732a5efecaffea2a1ad98f595a6d"/></dir></dir><dir name="template"><dir name="cloudiq"><dir name="core"><dir name="tab"><dir name="frame"><file name="iframe.phtml" hash="70e60d46b58138986b555b96c9f87dc5"/><file name="submitter.phtml" hash="d0c0dcb6206dd9298630dc564016e24f"/></dir><file name="global.phtml" hash="d91ea0fc9b1b2d48068732a3f203610c"/></dir><file name="tabs.phtml" hash="a14de21a37b43d13b4e70b9ef96933c7"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="cloudiq"><file name="core.css" hash="c22a2fe861358447637a640e75da9076"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

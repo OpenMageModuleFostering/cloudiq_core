@@ -1,0 +1,15 @@
+HTTP/1.1 403 Forbidden
+Date: Tue, 18 Jun 2013 11:46:25 GMT
+Server: Apache-Coyote/1.1
+X-powered-by: Servlet 2.4; JBoss-4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)/Tomcat-5.5
+Content-type: text/xml;charset=ISO-8859-1
+Content-length: 201
+Via: 1.1 nimbus.cloud-iq.com
+Connection: close
+
+<?xml version="1.0" encoding="utf-8" ?>
+<response status="101">
+        <description>Authentication failure</description>
+        <requestId>273025</requestId>
+        <dateTime>2013-06-18T11:46:25Z</dateTime>
+</response>

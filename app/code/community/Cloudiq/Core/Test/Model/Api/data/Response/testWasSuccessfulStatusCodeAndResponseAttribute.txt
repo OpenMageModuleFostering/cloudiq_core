@@ -1,0 +1,16 @@
+HTTP/1.1 202 Accepted
+Date: Tue, 18 Jun 2013 11:30:50 GMT
+Server: Apache-Coyote/1.1
+X-powered-by: Servlet 2.4; JBoss-4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)/Tomcat-5.5
+Content-type: text/html;charset=ISO-8859-1
+Content-length: 914
+Via: 1.1 nimbus.cloud-iq.com
+Connection: close
+
+<?xml version="1.0" encoding="utf-8" ?>
+<response status="1">
+    <description>Success</description>
+    <requestId>273005</requestId>
+    <dateTime>2013-06-18T11:30:50Z</dateTime>
+    <timeZone>GMT</timeZone>
+</response>

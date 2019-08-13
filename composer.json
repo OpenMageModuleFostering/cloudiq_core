@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Cloudiq_Core",
+    "type": "magento-module",
+    "license": "Commercial-License",
+    "homepage": "",
+    "description": "This extension provides a framework for other cloud.IQ extensions.",
+    "authors": [
+    {
+        "name": "cloud.IQ",
+        "email": "sales@cloud-iq.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
